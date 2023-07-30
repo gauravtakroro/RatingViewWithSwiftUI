@@ -2,7 +2,7 @@
 //  RatingViewUsingSwiftUIApp.swift
 //  RatingViewUsingSwiftUI
 //
-//  Created by Roro Solutions LLP on 30/07/23.
+//  Created by Gaurav Tak on 30/07/23.
 //
 
 import SwiftUI
