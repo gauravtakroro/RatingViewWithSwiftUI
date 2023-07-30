@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @State var showRatingViewBottomSheet = false
+    @State var showEmojiRatingViewBottomSheet = false
+    @State var showEmojiRatingView2BottomSheet = false
     var body: some View {
         VStack {
             Text("Rating View Demo")
@@ -16,12 +18,31 @@ struct ContentView: View {
                showRatingViewBottomSheet = true
             } label: {
                 Text("Show Rating View")
-            }.padding(.top, 32)
+            }.padding(.top, 16)
+            Button {
+                showEmojiRatingViewBottomSheet = true
+            } label: {
+                Text("Show Emoji Rating View")
+            }.padding(.top, 16)
+            Button {
+                showEmojiRatingView2BottomSheet = true
+            } label: {
+                Text("Show Emoji Rating View with User Interaction")
+            }.padding(.top, 16)
         }
-        .padding().sheet(isPresented: $showRatingViewBottomSheet)  {
+        .padding()
+        .sheet(isPresented: $showRatingViewBottomSheet)  {
             ShowRatingView()
                  .padding(.top)
          }
+        .sheet(isPresented: $showEmojiRatingViewBottomSheet)  {
+             ShowEmojiRatingView()
+                  .padding(.top)
+          }
+        .sheet(isPresented: $showEmojiRatingView2BottomSheet)  {
+             ShowEmojiRatingView2()
+                  .padding(.top)
+          }
     }
 }
 
