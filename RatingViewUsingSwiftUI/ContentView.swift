@@ -11,6 +11,8 @@ struct ContentView: View {
     @State var showRatingViewBottomSheet = false
     @State var showEmojiRatingViewBottomSheet = false
     @State var showEmojiRatingView2BottomSheet = false
+    @State var showRatingViewWithFraction = false
+    
     var body: some View {
         VStack {
             Text("Rating View Demo")
@@ -29,6 +31,11 @@ struct ContentView: View {
             } label: {
                 Text("Show Emoji Rating View with User Interaction")
             }.padding(.top, 16)
+            Button {
+                showRatingViewWithFraction = true
+            } label: {
+                Text("Show Star Rating View with Fraction")
+            }.padding(.top, 16)
         }
         .padding()
         .sheet(isPresented: $showRatingViewBottomSheet)  {
@@ -41,6 +48,10 @@ struct ContentView: View {
           }
         .sheet(isPresented: $showEmojiRatingView2BottomSheet)  {
              ShowEmojiRatingView2()
+                  .padding(.top)
+          }
+        .sheet(isPresented: $showRatingViewWithFraction)  {
+             ShowRatingViewWithFraction()
                   .padding(.top)
           }
     }

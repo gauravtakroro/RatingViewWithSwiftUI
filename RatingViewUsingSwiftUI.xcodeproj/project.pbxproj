@@ -15,6 +15,8 @@
 		931C01882A76C93200B62D60 /* ShowEmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C01872A76C93200B62D60 /* ShowEmojiRatingView.swift */; };
 		931C018A2A76CD5000B62D60 /* EmojiRatingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C01892A76CD5000B62D60 /* EmojiRatingView2.swift */; };
 		931C018C2A76CEF500B62D60 /* ShowEmojiRatingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C018B2A76CEF500B62D60 /* ShowEmojiRatingView2.swift */; };
+		931C018E2A76E72200B62D60 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C018D2A76E72200B62D60 /* StarView.swift */; };
+		931C01902A76E75000B62D60 /* ShowRatingViewWithFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C018F2A76E75000B62D60 /* ShowRatingViewWithFraction.swift */; };
 		93CFC9FB2A76B78D00E6CD3C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFC9FA2A76B78D00E6CD3C /* RatingView.swift */; };
 		93CFC9FD2A76C48300E6CD3C /* ShowRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFC9FC2A76C48300E6CD3C /* ShowRatingView.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +31,8 @@
 		931C01872A76C93200B62D60 /* ShowEmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEmojiRatingView.swift; sourceTree = "<group>"; };
 		931C01892A76CD5000B62D60 /* EmojiRatingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView2.swift; sourceTree = "<group>"; };
 		931C018B2A76CEF500B62D60 /* ShowEmojiRatingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEmojiRatingView2.swift; sourceTree = "<group>"; };
+		931C018D2A76E72200B62D60 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		931C018F2A76E75000B62D60 /* ShowRatingViewWithFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRatingViewWithFraction.swift; sourceTree = "<group>"; };
 		93CFC9FA2A76B78D00E6CD3C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		93CFC9FC2A76C48300E6CD3C /* ShowRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +77,8 @@
 				931C01872A76C93200B62D60 /* ShowEmojiRatingView.swift */,
 				931C01892A76CD5000B62D60 /* EmojiRatingView2.swift */,
 				931C018B2A76CEF500B62D60 /* ShowEmojiRatingView2.swift */,
+				931C018D2A76E72200B62D60 /* StarView.swift */,
+				931C018F2A76E75000B62D60 /* ShowRatingViewWithFraction.swift */,
 			);
 			path = RatingViewUsingSwiftUI;
 			sourceTree = "<group>";
@@ -155,11 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931C018E2A76E72200B62D60 /* StarView.swift in Sources */,
 				931C018A2A76CD5000B62D60 /* EmojiRatingView2.swift in Sources */,
 				931C01862A76C8F000B62D60 /* EmojiRatingView.swift in Sources */,
 				931C01882A76C93200B62D60 /* ShowEmojiRatingView.swift in Sources */,
 				93CFC9FD2A76C48300E6CD3C /* ShowRatingView.swift in Sources */,
 				931C018C2A76CEF500B62D60 /* ShowEmojiRatingView2.swift in Sources */,
+				931C01902A76E75000B62D60 /* ShowRatingViewWithFraction.swift in Sources */,
 				93CFC9FB2A76B78D00E6CD3C /* RatingView.swift in Sources */,
 				9302165E2A76A127008C7AE7 /* ContentView.swift in Sources */,
 				9302165C2A76A127008C7AE7 /* RatingViewUsingSwiftUIApp.swift in Sources */,

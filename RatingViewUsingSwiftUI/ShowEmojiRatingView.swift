@@ -30,4 +30,3 @@ struct ShowEmojiRatingView_Previews: PreviewProvider {
     }
 }
 
-
