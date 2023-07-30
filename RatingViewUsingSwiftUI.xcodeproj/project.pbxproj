@@ -11,6 +11,8 @@
 		9302165E2A76A127008C7AE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302165D2A76A127008C7AE7 /* ContentView.swift */; };
 		930216602A76A129008C7AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9302165F2A76A129008C7AE7 /* Assets.xcassets */; };
 		930216632A76A129008C7AE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930216622A76A129008C7AE7 /* Preview Assets.xcassets */; };
+		93CFC9FB2A76B78D00E6CD3C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFC9FA2A76B78D00E6CD3C /* RatingView.swift */; };
+		93CFC9FD2A76C48300E6CD3C /* ShowRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFC9FC2A76C48300E6CD3C /* ShowRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9302165D2A76A127008C7AE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9302165F2A76A129008C7AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930216622A76A129008C7AE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93CFC9FA2A76B78D00E6CD3C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		93CFC9FC2A76C48300E6CD3C /* ShowRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				9302165D2A76A127008C7AE7 /* ContentView.swift */,
 				9302165F2A76A129008C7AE7 /* Assets.xcassets */,
 				930216612A76A129008C7AE7 /* Preview Content */,
+				93CFC9FA2A76B78D00E6CD3C /* RatingView.swift */,
+				93CFC9FC2A76C48300E6CD3C /* ShowRatingView.swift */,
 			);
 			path = RatingViewUsingSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93CFC9FD2A76C48300E6CD3C /* ShowRatingView.swift in Sources */,
+				93CFC9FB2A76B78D00E6CD3C /* RatingView.swift in Sources */,
 				9302165E2A76A127008C7AE7 /* ContentView.swift in Sources */,
 				9302165C2A76A127008C7AE7 /* RatingViewUsingSwiftUIApp.swift in Sources */,
 			);

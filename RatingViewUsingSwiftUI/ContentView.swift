@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showRatingViewBottomSheet = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Rating View Demo")
+            Button {
+               showRatingViewBottomSheet = true
+            } label: {
+                Text("Show Rating View")
+            }.padding(.top, 32)
         }
-        .padding()
+        .padding().sheet(isPresented: $showRatingViewBottomSheet)  {
+            ShowRatingView()
+                 .padding(.top)
+         }
     }
 }
 
