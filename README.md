@@ -3,7 +3,7 @@ this is SwiftUi View as Rating View which gives demo of How to create Rating Vie
 
 Rating View Using SwiftUI
 
-![Uploading Simulator Screen Shot - iPhone 14 Pro - 2023-08-18 at 01.35.34.png…]()
+![Simulator Screen Shot - iPhone 14 Pro - 2023-08-18 at 01 35 34](https://github.com/gauravtakroro/RatingViewWithSwiftUI/assets/68221862/b732b384-1063-44f7-858a-1da20aa76a34)
 
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-08-18 at 01 35 45](https://github.com/gauravtakroro/RatingViewWithSwiftUI/assets/68221862/cd129a40-1e40-4dbf-9eb5-fd5b3f3f7847)
 
